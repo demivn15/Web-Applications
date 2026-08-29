@@ -1,0 +1,70 @@
+/* General Page Styling */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Navigation Links */
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Images and Captions */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+p i {
+    color: #666666;
+    font-size: 0.9em;
+}
+
+/* Lists and Lines */
+ul {
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #cccccc;
+    margin: 20px 0;
+}
