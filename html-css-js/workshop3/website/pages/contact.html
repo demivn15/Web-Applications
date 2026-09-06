@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Contact - Demian Viteri</title>
+        <link href="../css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="../icons/favicon.ico" type="image/x-icon">
+    </head>
+    <body bgcolor="#f0f0f0">
+        <main>
+            <h1 style="text-align:center; font-family: Arial">Contact Me</h1>
+            <center>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="../index.html">About Me</a></li>
+                        <li><a href="#">Contact</a></li> 
+                        <li><a href="courses.html">Courses</a></li> 
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </center>
+            <hr>
+            <center>
+                <img src="../images/me.jpeg" alt="A photo of me." width="250" height="150">
+            </center>
+            <center>
+                <p><i>(A picture of me with my dog Stella, a french bulldog -- again)</i></p>
+            </center>
+            
+            <h2>Contact Information</h2>
+            <p><b>Name:</b> Demian Alejandro Viteri Aparicio</p>
+            <p><b>Email:</b> demian.viteri@yachaytech.edu.ec</p>
+            <p><b>Phone Number:</b> 0958767911</p>
+            <p><b>Address:</b> You can find me at Yachay Tech :)</p>
+            
+            <hr>
+
+            <!-- Contact Form Section -->
+            <section class="contact-section">
+                <h2>Send Me a Message</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                        <small class="error-msg" id="name-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                        <small class="error-msg" id="email-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                        <small class="error-msg" id="message-error"></small>
+                    </div>
+
+                    <button type="submit" id="submit-btn">Send Message</button>
+                </form>
+            </section>
+
+            <hr>
+            <p style="font-size:14px;">By Demian Viteri</p>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../script.js"></script>
+    </body>
+</html>
