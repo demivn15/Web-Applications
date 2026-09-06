@@ -1,2 +1,3 @@
-html/workshop-description.pdf
-html-css/workshop-description.pdf
+html/*.pdf
+html-css/*.pdf
+html-css-js/*.pdf
